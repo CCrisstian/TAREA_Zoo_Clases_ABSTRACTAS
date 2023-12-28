@@ -28,15 +28,19 @@ Mamifero[] mamiferos = new Mamifero[6];
  
 Mamifero leon = new Leon(120d, 5, 7.5f, 58, "Sur Africa", 120, 220, 190);
 Mamifero guepardo = new Guepardo(4.9f, 130, "Africa", 94, 140, 72);
+
 ...
+
 mamiferos[0] = leon;
+
 mamiferos[1] = guepardo;
+
 ...
  
 for (Mamifero animal : mamiferos) {
     ....
 }
 ...
-A continuación dejo el diagrama UML de clases como una guía, los métodos getters y constructores se omitieron para simplificar, pero deben ir en el código.
+
 
 ![image](https://github.com/CCrisstian/TAREA_Zoo_Clases_ABSTRACTAS/assets/111469216/2c175ece-5bd7-45ed-8086-f0891c392f9e)
