@@ -1,3 +1,5 @@
+package MAMIFERO;
+
 abstract public class Mamifero {
 
 /*------------ATRIBUTOS----------------*/
@@ -48,7 +50,7 @@ protected String nombre_científico;
 
     public String Generar_Ficha() {
         StringBuilder ficha = new StringBuilder("\n---------------------------------------------------------------------------------------------------------------");
-        ficha.append("\nFicha de: "+getClass().getName());
+        ficha.append("\nFicha de: "+getClass().getSimpleName());
         ficha.append("\n---------------------------------------------------------------------------------------------------------------");
         ficha.append("\n\tHabitad: ").append(habitat);
         ficha.append("\n\tAltura: ").append(altura).append(" mts");

@@ -1,4 +1,8 @@
-public class Canino extends Mamifero{
+package Canino;
+
+import MAMIFERO.Mamifero;
+
+public class Canino extends Mamifero {
 
 /*------------ATRIBUTOS----------------*/
     protected String color;
@@ -50,7 +54,10 @@ public class Canino extends Mamifero{
 
     @Override
     public String Generar_Ficha() {
-        return null;
+        StringBuilder ficha = new StringBuilder(super.Generar_Ficha());
+        ficha.append("\n\tColor: ").append(color);
+        ficha.append("\n\tTamaño de los colmillos: ").append(tamaño_colmillos).append(" cm");
+        return ficha.toString();
     }
 /*------------MÉTODOS----------------*/
 

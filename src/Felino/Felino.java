@@ -1,4 +1,8 @@
-public class Felino extends Mamifero{
+package Felino;
+
+import MAMIFERO.Mamifero;
+
+public class Felino extends Mamifero {
 
 /*------------ATRIBUTOS----------------*/
     protected double tamaño_garras;
@@ -46,6 +50,13 @@ public class Felino extends Mamifero{
         return null;
     }
 
+    @Override
+    public String Generar_Ficha() {
+        StringBuilder ficha = new StringBuilder(super.Generar_Ficha());
+        ficha.append("\"\n\tTamaño de garras: ").append(tamaño_garras).append(" cm");
+        ficha.append("\n\tVelocidad: ").append(velocidad).append(" Km/h");
+        return ficha.toString();
+    }
 /*------------MÉTODOS----------------*/
 
 }

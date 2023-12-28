@@ -1,4 +1,8 @@
-public class Guepardo extends Felino{
+package Felino;
+
+import Felino.Felino;
+
+public class Guepardo extends Felino {
 
 /*------------CONSTRUCTOR----------------*/
     public Guepardo(String habitat, double altura, double largo, double peso,
@@ -10,7 +14,7 @@ public class Guepardo extends Felino{
 /*------------MÉTODOS----------------*/
     @Override
     public String comer() {
-        return"\n- El "+getClass().getName()+" se alimenta principalmente de gacelas Thompson, ñus y otros pequeños roedores.";
+        return"\n- El "+getClass().getSimpleName()+" se alimenta principalmente de gacelas Thompson, ñus y otros pequeños roedores.";
     }
 
     @Override

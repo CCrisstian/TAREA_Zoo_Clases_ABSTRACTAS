@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89b38ddd-edd6-4161-925b-b7a908f3211f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Canino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Felino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Guepardo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mamifero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tigre.java" afterDir="false" />
+    <list default="true" id="89b38ddd-edd6-4161-925b-b7a908f3211f" name="Changes" comment="Clase ABSTRACTA Felino y clases concretas terminadas.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Canino/Lobo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Canino/Perro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Canino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Canino/Canino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Felino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Felino/Felino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Guepardo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Felino/Guepardo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Felino/Leon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mamifero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MAMIFERO/Mamifero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tigre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Felino/Tigre.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +33,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
@@ -43,6 +50,7 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
@@ -70,6 +78,19 @@
       <option name="presentableId" value="Default" />
       <updated>1703768537233</updated>
     </task>
+    <task id="LOCAL-00001" summary="Clase ABSTRACTA Felino y clases concretas terminadas.">
+      <option name="closed" value="true" />
+      <created>1703796431685</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703796431685</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Clase ABSTRACTA Felino y clases concretas terminadas." />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase ABSTRACTA Felino y clases concretas terminadas." />
   </component>
 </project>

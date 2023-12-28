@@ -1,6 +1,10 @@
+import Canino.Lobo;
+import Canino.Perro;
+import Felino.Leon;
+
 public class Main {
     public static void main(String[] args) {
-       Leon prueba = new Leon("Sabana",1.5D,2D,150D,"Liom",20D,30,6,60D);
+        Perro prueba = new Perro("Casa",0.4D,0.60D,20D,"Canis Familiaris","Amarillo",0.10D,30);
         System.out.println(prueba.Generar_Ficha());
         System.out.println(prueba.Generar_Comportamiento(prueba));
     }

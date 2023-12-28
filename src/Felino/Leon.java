@@ -1,4 +1,8 @@
-public class Leon extends Felino{
+package Felino;
+
+import Felino.Felino;
+
+public class Leon extends Felino {
 
 /*------------ATRIBUTOS----------------*/
     private int numero_manada;
@@ -38,7 +42,7 @@ public class Leon extends Felino{
 /*------------MÉTODOS----------------*/
     @Override
     public String comer() {
-        return "- El "+getClass().getName()+" nombre científico('"+
+        return "- El "+getClass().getSimpleName()+" nombre científico('"+
                 nombre_científico+"') come principalmente de presas " +
                 "herbívoras haciendo uso de sus garras de "+tamaño_garras+"cm.";
     }
@@ -51,12 +55,12 @@ public class Leon extends Felino{
 
     @Override
     public String correr() {
-        return "\n- Un "+getClass().getName()+" puede alcanzar velocidades de hasta "+velocidad+" km/h.";
+        return "\n- Un "+getClass().getSimpleName()+" puede alcanzar velocidades de hasta "+velocidad+" km/h.";
     }
 
     @Override
     public String comunicarse() {
-        return "\n- Un "+getClass().getName()+" puede comunicarse con su manada de "+numero_manada+
+        return "\n- Un "+getClass().getSimpleName()+" puede comunicarse con su manada de "+numero_manada+
                 " miembros mediante su potente rugido de "+potencia_rugido+" decibeles.";
     }
 
