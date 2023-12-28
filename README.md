@@ -37,16 +37,16 @@ Respecto a los tipos concretos:
   * potencia rugido en decibel (decimal)
 
 - El Tigre tiene el atributo:
-  *especie tigre (string)
+  * especie tigre (string)
 
 - El Guepardo sin atributos adicionales
 
 - El Lobo tiene:
-  *numero de camada (int)
-  *especieLobo (string)
+  * numero de camada (int)
+  * especieLobo (string)
 
 - El Perro tiene:
-  *fuerza de mordida en psi (int)
+  * fuerza de mordida en psi (int)
 
 Los métodos abstractos:
   comer(), dormir(), correr() y comunicarse() 
