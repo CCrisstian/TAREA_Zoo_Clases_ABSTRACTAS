@@ -12,6 +12,7 @@ Para todos los mamíferos mencionados se requieren de los siguientes atributos e
 - largo (decimal)
 - peso (decimal)
 - nombre científico (string)
+
 Con sus respectivos métodos getters, usar constructor para inicializar los datos.
 
 También se necesitan 4 métodos abstractos que deberán implementar los tipos concretos:
