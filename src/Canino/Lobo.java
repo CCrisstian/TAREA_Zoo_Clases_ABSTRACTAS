@@ -38,25 +38,25 @@ public class Lobo extends Canino{
 /*------------MÉTODOS----------------*/
     @Override
     public String comer() {
-        return "- Los "+getClass().getSimpleName()+" color('"+color+"') de la especie ('"+especie_lobo+"') son carnívoros con colmillos de "
+        return "- Un "+getClass().getSimpleName()+" de color('"+color+"') de la especie ('"+especie_lobo+"') son carnívoros con colmillos de "
                 +tamaño_colmillos+" cm, su alimentación se basa principalmente en animales de tamaño medio como cerdos, cabras, ciervos.";
     }
 
     @Override
     public String dormir() {
-        return "\n- Los "+getClass().getSimpleName()+" de la especie ('"+especie_lobo+"') son conocidos por mantenerse despiertos hasta " +
+        return "\n- El "+getClass().getSimpleName()+" de la especie ('"+especie_lobo+"') son conocidos por mantenerse despiertos hasta " +
                 "altas horas de la noche y dormir más durante el día.";
     }
 
     @Override
     public String correr() {
-        return "\n- Los "+getClass().getSimpleName()+" nombre científico ('"+nombre_científico+"') están adaptados para carreras de larga distancia. " +
+        return "\n- El "+getClass().getSimpleName()+" nombre científico ('"+nombre_científico+"') están adaptados para carreras de larga distancia. " +
                 "Son capaces de cubrir varios kilómetros a una velocidad de 10 km/h";
     }
 
     @Override
     public String comunicarse() {
-        return "\n- Los "+getClass().getSimpleName()+" nombre científico ('"+nombre_científico+"') son animales muy comunicativos que utilizan una " +
+        return "\n- El "+getClass().getSimpleName()+" nombre científico ('"+nombre_científico+"') son animales muy comunicativos que utilizan una " +
                 "gran variedad de maneras para comunicarse con los "+numero_camada+" miembros de su camada";
     }
 

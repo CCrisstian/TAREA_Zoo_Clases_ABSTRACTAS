@@ -27,13 +27,13 @@ public class Perro extends Canino{
 /*------------MÉTODOS----------------*/
     @Override
     public String comer() {
-        return "- Los "+getClass().getSimpleName()+" color('"+color+"') son carnívoros con una fuerza de mordida de "
+        return "- El "+getClass().getSimpleName()+" color('"+color+"') son carnívoros con una fuerza de mordida de "
                 +fuerza_mordida+" psi, necesitan una dieta equilibrada para un correcto crecimiento y mantenimiento de su metabolismo";
     }
 
     @Override
     public String dormir() {
-        return "\n- Los "+getClass().getSimpleName()+" duermen alrededor de unas 14 horas, 8 a 9 horas por la noche y pequeñas siestas durante el día.";
+        return "\n- El "+getClass().getSimpleName()+" duermen alrededor de unas 14 horas, 8 a 9 horas por la noche y pequeñas siestas durante el día.";
     }
 
     @Override
@@ -43,7 +43,7 @@ public class Perro extends Canino{
 
     @Override
     public String comunicarse() {
-        return "\n- Los "+getClass().getSimpleName()+" nombre científico ('"+nombre_científico+"') son muy buenos comunicadores y utilizan una variedad de métodos para interactuar con los humanos y otros perros";
+        return "\n- El "+getClass().getSimpleName()+" nombre científico ('"+nombre_científico+"') son muy buenos comunicadores y utilizan una variedad de métodos para interactuar con los humanos y otros perros";
     }
 
     @Override

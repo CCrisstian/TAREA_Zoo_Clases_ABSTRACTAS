@@ -61,12 +61,12 @@ protected String nombre_científico;
         return ficha.toString();
     }
 
-    public String Generar_Comportamiento(Mamifero mamifero){
+    public String Generar_Comportamiento(){
         StringBuilder comportamiento = new StringBuilder();
-        comportamiento.append(comer());
-        comportamiento.append(dormir());
-        comportamiento.append(correr());
-        comportamiento.append(comunicarse());
+        comportamiento.append(this.comer());
+        comportamiento.append(this.dormir());
+        comportamiento.append(this.correr());
+        comportamiento.append(this.comunicarse());
         comportamiento.append("\n---------------------------------------------------------------------------------------------------------------");
         return comportamiento.toString();
     }

@@ -49,8 +49,7 @@ public class Leon extends Felino {
 
     @Override
     public String dormir() {
-        return "\n- Los leones son conocidos por sus hábitos de sueño. " +
-                "Suelen dormir entre 16 y 20 horas al día.";
+        return "\n- El "+getClass().getSimpleName()+" es conocido por sus hábitos de sueño. Suelen dormir entre 16 y 20 horas al día.";
     }
 
     @Override

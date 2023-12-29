@@ -4,19 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89b38ddd-edd6-4161-925b-b7a908f3211f" name="Changes" comment="Clase ABSTRACTA Felino y clases concretas terminadas.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Canino/Lobo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Canino/Perro.java" afterDir="false" />
+    <list default="true" id="89b38ddd-edd6-4161-925b-b7a908f3211f" name="Changes" comment="- Las clases se agruparon en sus respectivos PAQUETES (Felino - Canino).&#10;- Todas las clases completas.&#10;- Main funcionando.&#10;&#10;Falta completar el Main y optimizar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Canino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Canino/Canino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Felino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Felino/Felino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Guepardo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Felino/Guepardo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Felino/Leon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mamifero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MAMIFERO/Mamifero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tigre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Felino/Tigre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Canino/Lobo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Canino/Lobo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Canino/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Canino/Perro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Felino/Felino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Felino/Felino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Felino/Guepardo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Felino/Guepardo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Felino/Leon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Felino/Leon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Felino/Tigre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Felino/Tigre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MAMIFERO/Mamifero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MAMIFERO/Mamifero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjemploMamiferos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2aAjynq8qeSaVPOiu6OAPyaWGxg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,17 +44,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.EjemploMamiferos.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="EjemploMamiferos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjemploMamiferos" />
       <module name="TAREA_Zoo_Clases_ABSTRACTAS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -65,7 +64,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.EjemploMamiferos" />
       </list>
     </recent_temporary>
   </component>
@@ -86,11 +85,20 @@
       <option name="project" value="LOCAL" />
       <updated>1703796431685</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- Las clases se agruparon en sus respectivos PAQUETES (Felino - Canino).&#10;- Todas las clases completas.&#10;- Main funcionando.&#10;&#10;Falta completar el Main y optimizar">
+      <option name="closed" value="true" />
+      <created>1703802525393</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703802525393</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Clase ABSTRACTA Felino y clases concretas terminadas." />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase ABSTRACTA Felino y clases concretas terminadas." />
+    <MESSAGE value="- Las clases se agruparon en sus respectivos PAQUETES (Felino - Canino).&#10;- Todas las clases completas.&#10;- Main funcionando.&#10;&#10;Falta completar el Main y optimizar" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Las clases se agruparon en sus respectivos PAQUETES (Felino - Canino).&#10;- Todas las clases completas.&#10;- Main funcionando.&#10;&#10;Falta completar el Main y optimizar" />
   </component>
 </project>
