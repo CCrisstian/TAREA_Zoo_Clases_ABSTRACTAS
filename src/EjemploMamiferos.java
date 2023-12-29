@@ -6,7 +6,7 @@ public class EjemploMamiferos {
     public static void main(String[] args) {
         MAMIFERO.Mamifero[] mamiferos = new MAMIFERO.Mamifero[5];
 
-        Lobo lobo = new Lobo("Bosque",0.7D,1.5D,50D,"Canis lupus","Gris",0.7D,10,"Lobo gris");
+        Lobo lobo = new Lobo("Bosque",0.9D,2D,50D,"Canis lupus","Gris",0.6D,6,"Lobo gris");
         Perro perro = new Perro("Casa",0.4D,1D,24D,"Canis familiaris","Amarillo",0.3D,230);
 
         Guepardo guepardo = new Guepardo("Estepas",0.5D,1.5D,40D,"Acinonyx jubatus",0.1D,115);

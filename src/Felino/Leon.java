@@ -44,7 +44,7 @@ public class Leon extends Felino {
     public String comer() {
         return "- El "+getClass().getSimpleName()+" nombre científico('"+
                 nombre_científico+"') come principalmente de presas " +
-                "herbívoras haciendo uso de sus garras de "+tamaño_garras+"cm.";
+                "herbívoras haciendo uso de sus garras de "+tamaño_garras+"mts.";
     }
 
     @Override

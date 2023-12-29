@@ -32,14 +32,14 @@ public class Tigre extends Felino {
     @Override
     public String comer() {
         return "- Un "+getClass().getSimpleName()+" de la especie: ('"+especie_de_Tigre+
-                "') es un hábil cazador, con garras de "+tamaño_garras+"cm puede cazar " +
+                "') es un hábil cazador, con garras de "+tamaño_garras+"cm y un peso de "+peso+"kg, puede cazar " +
                 "y consumir hasta 50 kg de carne en un solo día.";
     }
 
     @Override
     public String dormir() {
         return "\n- El "+getClass().getSimpleName()+" de la especie: ('"+especie_de_Tigre+"') son animales nocturnos y pasan gran parte del día durmiendo o " +
-                "descansando. Pueden dormir hasta 18-20 horas al día.";
+                "descansando. Pueden dormir hasta 18-20 horas al día en su habitad('"+habitat+"').";
     }
 
     @Override
